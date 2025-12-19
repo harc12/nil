@@ -9,10 +9,10 @@ body{
 }
 .flors{
     position: absolute;
-    width: 20%;
-    height: 70%;
-    top: 43.5%;
-    left: 40%;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 10%;
     scale: 1.2;
 }
 .flors .flor1{
@@ -183,4 +183,5 @@ body{
     max-width: 180px;
     height: auto;
     margin-bottom: 2px;
+
 }
