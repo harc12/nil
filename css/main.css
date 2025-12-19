@@ -1,0 +1,186 @@
+body{
+    background-color: black;
+}
+.titulo{
+    color: rgb(187, 118, 14);
+    text-align: center;
+    place-items: center;
+    display: grid;
+}
+.flors{
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    top: 43.5%;
+    left: 40%;
+    scale: 1.2;
+}
+.flors .flor1{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    z-index: 1;
+
+}
+.flors .flor2{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    left: 47%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 150%;
+    z-index: 1;
+
+}
+.flors .flor3{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 150%;
+    z-index: 1;
+
+}
+.flors .flor4{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 40%;
+    z-index: 1;
+
+}
+.flors .flor5{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 12%;
+    left: 32.7%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 15%;
+    rotate: 44deg;
+
+}
+.flors .flor6{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 23%;
+    left: 52%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 150%;
+    rotate: 44deg;
+
+}
+.flors .flor7{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 34%;
+    left: 33.4%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 40%;
+    rotate: 44deg;
+
+}
+.flors .flor8{
+    background: linear-gradient(to top,#D15B01,#FDC300, #FDC300);
+    width: 27%;
+    height: 15%;
+    position: absolute;
+    top: 23%;
+    left: 14%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 150%;
+    rotate: 44deg;
+
+}
+.centro {
+    background:-webkit-radial-gradient(center,circle, #110B0B,#3F1B16 50%);
+    width: 28%;
+    height: 16%;
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    border-radius: 50%;
+    z-index: 2;
+}
+.tallo{
+    background: linear-gradient(to top, rgb(43, 35, 32),rgb(73, 42, 22),rgb(173, 71, 11));
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 3%;
+    height: 50%;
+    z-index: -1;
+}
+.hoja1{
+    background: linear-gradient(to right bottom,green,rgb(12, 165, 12),rgb(40, 212, 40));
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 150%;
+
+}
+.hoja2{
+    background: linear-gradient(to right bottom,rgb(76, 192, 76),rgb(30, 204, 30),rgb(26, 139, 26));
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    border-top-right-radius: 150%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 150%;
+    transform: rotatey(180deg);
+
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.im1{
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 2px;
+}
